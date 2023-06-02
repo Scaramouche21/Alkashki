@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="1605.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+                <img src="images\logo.png">
+            <div class="ost">
+                <nav>
+                 <a href="#">Акции</a>
+                 <a href="#">Поиск</a>
+                 <a href="#">Регистрация на рейс</a>
+                 <a href="#">Личный кабинет</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <main>
+            <h2>Поиск рейса</h2>
+            <div class="input">
+                 <input  type="text" placeholder="Откуда"></input>
+                <input  type="text" placeholder="Куда"></input>
+                <input  type="text" placeholder="Туда"></input>
+                <input  type="text" placeholder="Обратно"></input>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+                <button>Поиск</button>
+            </div>
+            <div class="block">
+                <h2>Акции</h2>
+            <div class="images">
+               <div class="img1">
+                    <img src="images\promotion1.jpg">
+                    <h4>Возрат и изменение авиобилетов</h4>
+                    <p>Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+                    Как только все это закончиться, мы продолжим исследовать этот мир так, как мы привыкли.
+                    Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или
+                     отложить ее на более поздний срок</p>
+                   <button>Больше</button>
+               </div>
+               <div class="img2">
+                    <img src="images\promotion2.jpg">
+                    <h4>Хорошее предложение</h4>
+                    <p>Снова увидеть улицы, которые такмного видели. Обнять своих любимых и оглянуться назад, чтобы увидеть,
+                    через что вы прошли. И думать о новых мечтах, которые будт такими особенными!</p>
+                    <button>Больше</button>
+               </div>
+               <div class="img3">
+                    <img src="images\promotion3.jpg">
+                    <h4>Будем видеться почаще</h4>
+                    <p>С начала января мы расшеряем географию полетов по России, чтобы вы могли чаще видеться со своими близкими.
+                        Выберайте нашукомпанию, чтобы лететь туда, где вас всегда ждут.</p>
+                    <button>Больше</button>
+               </div>
+                <div class="img4">
+                    <img src="images\promotion4.jpg">
+                     <h4>Всё снова идёт своим чередом</h4>
+                    <p>С 10 августа мы возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться ежедневно
+                    два раза в день, а рейсы по маршруту Москва-Даламан-три-сем раз в неделю.</p>
+                    <button>Больше</button>
+                </div>
+            </div>
+            </div>
+            <div class="pos">
+                <h2>Подписка</h2>
+                <div class="pd">
+                    <form>
+                        <input type="text" name="text" placeholder="example@domains.com">
+                        <input type="button" value="Подписаться" class="x">
+                    </form>
+                </div>
+            </div>
+        </main>
+<footer>
+    <div class="footer">
+        <h4>8 (800)100-10-10</h4>
+        <nav>
+            <a href="">Главная</a>
+            <a href="">Вход</a>
+            <a href="">Регистрация</a>
+            <a href="">Контакты</a>
+            <a href="">Новости</a>
+            <a href="">Возрат</a>
+            <a href="">Обратная связь</a>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
