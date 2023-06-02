@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: #F0F3F5;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 170px;
+    margin: 5px;
+}
+header .ost{
+    margin-top: 15px;
+}
+header nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: #2873fd;
+}
+main h2{
+    padding: 30px;
+}
+main .input {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+main .input input{
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+}
+main .input button{
+    width: 80px;
+    height: 40px;
+    background: green;
+    color: white;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+main .input select{
+    width: 70px;
+    height: 40px;
+    border-radius: 3px;
+}
+main .input select:hover{
+    background: #F0F3F5;
+    color: black;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.img1, .img2, .img3, .img4{
+    border: 1px solid #e0e0e0;
+    width: 280px;
+    margin: 10px;
+    border-radius: 3%;
+}
+.img1 h4{
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img1 p{
+    width: 250px;
+    margin-left: 10px;
+    height: 150px;
+    margin-top: 20px;
+}
+.img2 h4{
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img2 p{
+    width: 250px;
+    margin-left: 10px;
+     margin-top: 20px;
+}
+.img3 h4{
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img3 p{
+    width: 250px;
+    margin-left: 10px;
+     margin-top: 20px;
+}
+.img4 h4{
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.img4 p{
+    width: 250px;
+    margin-left: 10px;
+     margin-top: 20px;
+}
+.img1 img{
+    width: 277px;
+    height: 185px;
+}
+.img2 img{
+    width: 277px;
+}
+.img3 img{
+    width: 277px;
+}
+.img4 img{
+    width: 277px;
+    border-radius: 3px;
+}
+.img1 button{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+    background: #2873fd;
+    color: white;
+    border: 1px solid #2873fd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img2 button{
+    margin-top: 144px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+    background: #2873fd;
+    color: white;
+    border: 1px solid #2873fd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img3 button{
+    margin-top: 144px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+     height: 30px;
+    width: 70px;
+    background: #2873fd;
+    color: white;
+    border: 1px solid #2873fd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img4 button{
+    margin-top: 144px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+     height: 30px;
+    width: 70px;
+    background: #2873fd;
+    color: white;
+    border: 1px solid #2873fd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pd input{
+    margin: 0px 20px;
+    width: 550px;
+    height: 25px;
+
+}
+
+.x{
+    cursor: pointer;
+    background: #2873fd;
+    border: 1px solid #2873fd;
+    border-radius: 3px;
+    color: white;
+}
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h4{
+    margin-left: 21px;
+}
+
+footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: #2873fd;
+
+}
