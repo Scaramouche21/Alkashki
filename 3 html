@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add-item</title>
+    <link rel="stylesheet" href="add-item.css">
+</head>
+<body>
+    <header>
+        <a href="main-page.html">Все товары</a>
+        <a href="basket.html">Корзина</a>
+        <a href="add-item.html" class="blue">Добавить товар</a>
+    </header>
+    <main>
+    	<div class="container">
+            <div class="all-items"><p>Добавление товара</p></div>
+            <div class="form">
+                <form>
+                    <div class="all">
+                        <input type="" name="" placeholder="Название товара" class="name">
+                        <input type="file" name="" class="img">
+                        <button>Добавить товар</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
